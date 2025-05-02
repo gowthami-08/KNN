@@ -27,3 +27,8 @@ Summary-
 PCA is used to convert the high-dimensional data into 2D, so it can be visualized.
 The decision boundary shows where the KNN model switches between class predictions.
 This plot helps us understand how well the model separates the classes, and how confident or confused it may be in some regions.
+
+Boundary Graph Interpretation:
+The model has learned to separate the classes in the 2D space.
+Class 0 and Class 2 are clearly separated, which means the model is confident and accurate in those regions.
+The middle region (Class 1) is less clearly defined, and you may see misclassifications or confusion around the boundary.
